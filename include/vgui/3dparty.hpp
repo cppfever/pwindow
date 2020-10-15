@@ -22,15 +22,3 @@
 #include <windows.h>
 #endif//_WIN32
 
-//GLEW
-#include <gl/glew.h>
-#include <gl/wglew.h>
-
-//OpenGL
-#include <GL/gl.h>
-
-//GLFW
-#include <GLFW/glfw3.h>
-
-//ECS
-#include <entt/entt.hpp>

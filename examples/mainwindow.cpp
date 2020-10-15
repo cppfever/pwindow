@@ -3,14 +3,13 @@
 #include <windows.h>
 
 
-//int main(int argc, char **argv)
-int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
+int main(int argc, char **argv)
+//int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
     try {
-      vgui::Window window("ECS demo", 400, 400, 640, 480);
+      vgui::Window window("PWindow demo", 400, 400, 640, 480);
 
       return window.Run();
-      // All SDL objects are released at this point or if an error occurs
     }
     catch (vgui::Exception& e)
     {
@@ -23,3 +22,5 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
       return 222;
     }
 }
+
+int agg_main(int, char**){return 0;}
